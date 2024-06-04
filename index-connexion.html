@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./image/logo-ragdoll.svg">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>FluffyRagdolls - Connexion</title>
+
+    <style>
+        footer{
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar fixed-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+              <img src="./image/menu-regular-108.png" alt="menu burger">
+            </button>
+            <div class="name-site d-flex justify-items-center">
+              <img id="logo-FluffyRagdolls" src="./image/_2e6a8f02-9ff7-49d7-a511-73eca3cada93-removebg-preview.png" alt="logo-FluffyRagdolls">
+              <a href="./index-home.html"><h1>FluffyRagdolls</h1></a>
+            </div>
+            <button  type="button">
+              <a href="./index-connexion.html"><img src="./image/user-circle-regular-108.png" alt="compte"></a>
+            </button>
+          </div>
+        <div class="collapse menu col-lg-4 rounded" id="navbarToggleExternalContent">
+              <ul class="navbar-nav">
+                  <li class="nav-item"><a href="./index-home.html">Acceuil</a></li>
+                  <hr>
+                  <li class="nav-item"><a href="./index-entretien.html">Entretien</a></li>
+                  <hr>
+                  <li class="nav-item"><a href="./index-alimentation.html">Alimentation & Jouet</a></li>
+                  <hr>
+                  <li class="nav-item"><a href="#">Adoption</a></li>
+                  <hr>
+                  <li class="nav-item"><a href="#">Calcul de poids</a></li>
+                  <hr>
+                  <li class="nav-item"><a href="#"> <img src="./image/chat-solid-108 (1).png"> Forum</a></li>
+                  <li class="nav-item"><a href="./index-connexion.html"><img src="./image/user-circle-regular-108.png">Connexion</a></li>
+
+              </ul>
+       </div>
+    </nav>
+
+    <main>
+
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card bg-light mb-4 custom-shadow">
+                    <div class="card-body">
+                        <form action="" method="post">
+                            <div>
+                                <label for="email" class="form-label"></label>
+                                <input type="email" class="form-control" id="email" placeholder="Email" required>
+                              </div>
+                              <div class="mb-3 box">
+                                <label for="password" class="form-label"></label>
+                                <input type="password" class="form-control" id="password" placeholder="Mot de passe" required>
+                              </div>
+                              <div class="d-flex justify-content-end">
+                                  <button type="submit" class="btn btn-danger">Connexion</button>
+                              </div>
+                              <div>
+                                <a href="./index-mdp-oublier.html">Mot de passe oublié ?</a>
+                                <br>
+                                <a href="./index-création-compte.html">Pas de compte ?</a>
+                            </div>
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    </main>
+
+      <footer>
+        <p>© Agathe Dupuis 2024</p>
+    </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="app-connexion.js"></script>
+</body>
+</html>

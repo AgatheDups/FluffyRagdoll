@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.name-site a:hover{
+    text-decoration: none;
+}
+
+h1, h2{
+    color: white;
+}
+
+p{
+    font-size: 20px;
+}
+
+.navbar{
+    color: white !important;
+}
+
+nav{
+    background-color: #9CBED7;
+    height: 11vh;
+}
+
+nav img{
+    width: 80%;
+}
+
+nav button{
+    border: none;
+    width: 80px;
+    background-color: #9CBED7;
+}
+
+.navbar-toggler:focus{
+    outline: none;
+}
+
+nav button a img{
+    width: 60%;
+}
+
+@media only screen and (max-width : 600px){
+    nav button a img{
+        display: none;
+    }
+}
+
+nav li a{
+    color: white;
+    margin-left: 10px;
+}
+
+nav li{
+    padding-top: 15px;
+}
+
+.nav-item img{
+    width: 25px;
+    padding: 10px 0;
+}
+
+.menu{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: #9CBED7;
+}
+
+.menu a:hover{
+    color: #dddddd;
+}
+
+.btn-nav{
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 6vh;
+}
+
+.barre-nav img{
+    width: 5vh;
+}
+
+#logo-FluffyRagdolls{
+    width: 10vh;
+}
+
+h1{
+    font-size: 1.8rem;
+}
+
+.name-site{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+footer{
+    background: #9CBED7;
+    padding-top: 10px;
+    margin-top: 20px ;
+}
+
+
+footer p{
+    display: inline;
+    height: 100%;
+    padding: 10px 0 0 10px;
+}
+
+                /* corps du site - home*/
+
+                
+#image1{
+    width: 40%;
+    margin: 20px 0;
+    display: inline;
+    border-radius: 30px;
+    padding: 0;
+}
+
+main{
+    margin-top: 110px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+.intro-text{
+    padding-left: 20px;
+}
+
+h2{
+    background: #6B92AE;
+    border-radius: 5px;
+    width: 520px;
+    margin: 30px 0 10px 0;
+    padding: 10px;
+}
+
+@media only screen and (max-width : 650px){
+    h2{
+        width: 70%;
+    }
+    h1{
+        font-size: 1.2rem !important;
+    }
+}
+@media only screen and (max-width : 1500px){
+    .intro{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+    }
+    main{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .intro-text{
+        padding-left: 0;
+    }
+}
+@media only screen and (max-width : 890px){
+    main{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+span{
+    font-weight: 700;
+}
+
+
+#esperence #mini{
+    float: left;
+}
+
+#bulle{
+    display: flex;
+    justify-content: center;
+}
+
+.rond{
+    background: #FFF2D7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 10vh;
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+}
+
+.ageChat{
+    width: 100px;
+    height: 20px;
+    border: solid 1px #9CBED7;
+    border-radius: 10px;
+}
+
+#ageChat{
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    border: solid 1px #9CBED7;
+    border-radius: 10px;
+}
+
+#ageHumainChat{
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    border: solid 1px #9CBED7;
+    border-radius: 10px;
+}
+
+
+#mini p, #max p{
+    text-align: center;
+}
+
+            /* corps du site - entretien*/
+
+
+.card{
+    margin-top: 10px;
+}
+.card h5{
+    color: #F34840;
+    font-weight: 700;
+}
+
+.card a{
+    background: #F34840;
+}
+
+
+            /* corps du site - alimentation*/
+
+.jouet h2{
+    margin: 20px 0;
+}
+
+            /* corps du site - connexion*/
+
+form{
+    padding: 20px 30px;
+}
+
+form button{
+    color: #ffffff !important;
+    width: 150px;
+    margin: 20px 0;
+}
+
+form a{
+    color: black;
+    background: none !important;
+}
