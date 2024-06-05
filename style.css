@@ -255,7 +255,6 @@ form{
 }
 
 form button{
-    color: #ffffff !important;
     width: 150px;
     margin: 20px 0;
 }
@@ -263,4 +262,26 @@ form button{
 form a{
     color: black;
     background: none !important;
+}
+
+form .box{
+    padding-bottom: 20px;
+}
+
+.box span{
+    width: 16px;
+    height: 16px;
+    align-items: center;
+}
+
+.show, .show-verif{
+    cursor: pointer;
+}
+
+.valid,.valid-verif, .show, .show-verif{
+    width: 15px;
+    font-size: 20px;
+    color: #6B92AE !important;
+    padding: 0 10px;
+    align-self: center;
 }
