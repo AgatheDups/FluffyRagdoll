@@ -49,9 +49,10 @@ nav button a img{
     }
 }
 
-nav li a{
+.nav-link{
     color: white;
     margin-left: 10px;
+    font-size: 18px !important;
 }
 
 nav li{
@@ -68,7 +69,7 @@ nav li{
     background-color: #9CBED7;
 }
 
-.menu a:hover{
+.nav-link:hover{
     color: #dddddd;
 }
 
