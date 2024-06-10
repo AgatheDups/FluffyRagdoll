@@ -49,14 +49,31 @@ nav button a img{
     }
 }
 
+.navbar-toggler.collapsed .burger-icon {
+    display: block;
+  }
+  .navbar-toggler.collapsed .close-icon {
+    display: none;
+  }
+  .navbar-toggler:not(.collapsed) .burger-icon {
+    display: none;
+  }
+  .navbar-toggler:not(.collapsed) .close-icon {
+    display: block;
+  }
+
 .nav-link{
     color: white;
     margin-left: 10px;
-    font-size: 18px !important;
+    font-size: 22px !important;
 }
 
 nav li{
-    padding-top: 15px;
+    padding-top: 5px;
+}
+
+.navbar-nav hr{
+    border-color: white;
 }
 
 .nav-item img{
