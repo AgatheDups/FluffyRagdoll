@@ -159,12 +159,12 @@ main{
 h2{
     background: #6B92AE;
     border-radius: 5px;
-    width: 520px;
+    width: 260px;
     margin: 30px 0 20px 0 !important;
     padding: 10px;
 }
 
-@media (max-width : 650px){
+@media (min-width : 650px){
     h2{
         width: 70%;
     }
@@ -172,27 +172,17 @@ h2{
 }
 
 
-@media (max-width : 1500px){
+@media (max-width : 1490px){
     .intro{
         display: flex;
         flex-direction: column;
         padding-left: 0;
-    }
-    main{
-        margin-left: 20%;
-        margin-right: 20%;
     }
     .intro-text{
         padding-left: 0;
     }
 }
 
-@media (max-width : 890px){
-    main{
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-}
 
 span{
     font-weight: 700;
