@@ -147,8 +147,6 @@ footer p{
 
 main{
     margin-top: 110px;
-    margin-left: 20%;
-    margin-right: 20%;
 }
 
 
@@ -168,7 +166,10 @@ h2{
     h2{
         width: 70%;
     }
-
+    main{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
 }
 
 
