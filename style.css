@@ -114,7 +114,7 @@ nav li{
 }
 
 h1{
-    font-size: 1.8rem;
+    font-size: 1.3rem !important;
 }
 
 .name-site{
@@ -168,16 +168,9 @@ h2{
     h2{
         width: 70%;
     }
-    h1{
-        font-size: 1.9rem !important;
-    }
+
 }
 
-@media (max-width : 450px){
-    h1{
-        font-size: 1.3rem !important;
-    }
-}
 
 @media (max-width : 1500px){
     .intro{
@@ -193,6 +186,7 @@ h2{
         padding-left: 0;
     }
 }
+
 @media (max-width : 890px){
     main{
         margin-left: 5%;
