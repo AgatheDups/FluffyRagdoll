@@ -27,22 +27,29 @@
     </style>
 </head>
 <body>
-  <div id="nav-place"></div>
-    <main>
-      <form action="" method="post">
-        <div class="mb-2">
-          <label for="email" class="form-label"></label>
-          <input type="email" class="form-control" id="email" placeholder="Email" required>
+  <main>
+    <div id="nav-place"></div>
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        <div class="card bg-light mb-4 custom-shadow">
+          <div class="card-body">
+            <form action="" method="post">
+              <div class="mb-2">
+                <label for="email" class="form-label"></label>
+                <input type="email" class="form-control" id="email" placeholder="Email" required>
+              </div>
+              <div class="d-flex justify-content-end">
+                <button type="submit" class="btn btn-danger">Réinitialisation</button>
+              </div>
+            </form>
+          </div>
         </div>
-        <div class="d-flex justify-content-end">
-          <button type="submit" class="btn btn-danger">Réinitialisation</button>
-        </div>
-      </form>
-    </main>
-
-      <footer>
-        <p>© Agathe Dupuis 2024</p>
-    </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>© Agathe Dupuis 2024</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
