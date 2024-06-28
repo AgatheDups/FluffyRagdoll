@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./style.css">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
   <script>
     document.addEventListener("DOMContentLoaded", function() {
         fetch('nav.html')
@@ -16,35 +17,47 @@
         });
     });
   </script>
-
-  <!-- a remplacer -->
-<style>
-    footer{
-        width: 100%;
-        position: absolute;
-        bottom: 0;
-    }
-</style>
+  
+    <style>
+        footer{
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+        }
+    </style>
     <title>FluffyRagdolls</title>
 
 </head>
 <body>
     <div id="nav-place"></div>
 
-
-    <div class="progress-work">
-        <img src="./image/giphy.gif" alt="">
+<main>
+    <div id="graph">
+        <h2>Graphique du poids des Ragdolls</h2>
+        <img src="image/graphique-poids.png" alt="graphique poids du Ragdoll">
+        <hr>
+        <div class="legende-graphe">
+            <div class="legende-male">
+                <div class="box-sexe box-male"></div>
+                <p>Poids pour un mâle</p> 
+            </div>
+            <div class="legende-femelle">
+                <div class="box-sexe box-femelle"></div>
+                <p>Poids pour un femelle</p>
+            </div>
+            <br>
+            <p>La croissance du Ragdolls se fait au long de ses deux premières années, donc après ses 2ans votre Ragdoll doit se strabiliser.</p>
+        </div>
     </div>
-  <!-- a remplacer -->
-
-
-<!-- utiliser la bibliotheque D3 js -->
+</main>
 
 
 
-    <footer>
-        <p>© Agathe Dupuis 2024</p>
-    </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+
+<footer>
+    <p>© Agathe Dupuis 2024</p>
+</footer>
+    <script src="javasript/app-calcul-poids.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

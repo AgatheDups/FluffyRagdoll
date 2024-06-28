@@ -124,16 +124,18 @@ h1{
 
 
 footer{
-    background: #9CBED7;
-    padding-top: 10px;
+    background: #c5d7e3;
+    padding-top: 5px;
     margin-top: 20px ;
 }
 
 
 footer p{
     display: inline;
+    font-size: small;
     padding: 10px 0 0 10px;
 }
+
 
                 /* corps du site - home*/
 
@@ -189,14 +191,8 @@ span{
     font-weight: 700;
 }
 
-
-#esperence #mini{
-    float: left;
-}
-
 #bulle{
     display: flex;
-    justify-content: center;
 }
 
 .rond{
@@ -293,6 +289,38 @@ form .box{
     color: #6B92AE !important;
     padding: 0 10px;
     align-self: center;
+}
+
+
+            /* corps du site - calcul poids*/
+
+
+#graph h2{
+    margin: auto;
+}
+
+#graph img{
+    width: 100%;
+}
+
+.box-sexe{
+    width: 15px;
+    height: 15px;
+}
+.box-male{
+    background: steelblue;
+}
+.box-femelle{
+    background: pink;
+}
+
+.legende-femelle, .legende-male{
+    display: flex;
+    align-items: center;
+}
+.legende-graphe p{
+    margin: 0 !important;
+    padding-left: 10px;
 }
 
 
